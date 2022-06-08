@@ -60,8 +60,8 @@ margin-right: 93px;
 }
 .logo.logo-header{
     color: #000000;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 
 }
 
@@ -270,10 +270,13 @@ display: none;
     padding-bottom: 60px;
 }
 
-.contacts-item{
+.contacts-item:not(:last-child){
     margin-bottom: 9px;
 }
 
+ /* .contacts{
+    display: inline-block; 
+} */
 .contacts-link{
     display: inline-block;
 
