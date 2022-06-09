@@ -180,7 +180,16 @@ margin-right: 93px;
 
 /* advantages section */
 .hidden{
-display: none;
+position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
 }
 
 .advantages-list{
@@ -325,6 +334,11 @@ display: none;
 }
 .filter:hover,
 .filter:focus{
+    background-color: var(--accent-color);
+    color: var(--second-accent-color);
+}
+
+.filter.active{
     background-color: var(--accent-color);
     color: var(--second-accent-color);
 }
